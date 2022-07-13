@@ -75,10 +75,26 @@ In this Project, We want to use historical Bitcoin data, Twitter data, and COVID
 
 !["Classification Report](Resources/1st_classification_report.png)
 
-> Click here to see the second model ["2st Model without features](2nd_ML_model_withfeatures.ipynb)
+> Click here to see the second model ["2st Model with features](2nd_ML_model_withfeatures.ipynb)
 
 > Price Prediction for the first period using bitcoin Data with added features with *(from ta import add_all_ta_features)* library
 
 !["Price Prediction for the first period using bitcoin Data with added features from ta library](Resources/first_period_ml_with_features.png)
 
 !["Classification Report with features](Resources/1sr_classification_report_with_features.png)
+
+> Click here to see the 3rd model ["3rd Model with bitcoin data and tweeter sentiment analysis](3rd_ML_model_using_btc_tweeter.ipynb)
+
+> Price Prediction for the first period using just bitcoin Data and tweeter sentiment analysis
+
+!["Price Prediction for the first period using just bitcoin Data and tweeter sentiment analysis](Resources/first_period_using_btc-tweety.png)
+
+!["Classification Report](Resources/classification_report_btc-tweepy.png)
+
+> Click here to see the model with all features together ["1st period Model with bitcoin data, added features, tweeter sentiment analysis, covid cases and death for 8 countries that hold the most bitcoin by volume](1st_covid_period.ipynb)
+
+> Price Prediction for the first period using bitcoin data, added features, tweeter sentiment analysis, covid cases and death for 8 countries that hold the most bitcoin by volume
+
+!["Price Prediction for the first period using bitcoin data, added features, tweeter sentiment analysis, covid cases and death for 8 countries that hold the most bitcoin by volume](Resources/firs_period_all_together.png)
+
+!["Classification Report](Resources/classification_report_alltogether.png)
