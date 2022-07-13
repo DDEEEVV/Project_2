@@ -44,7 +44,7 @@ In this Project, We want to use historical Bitcoin data, Twitter data, and COVID
 !["Bitcoin Price over the last 3 years](Resources/btc_price.png)
 
 
->> Collecting data from WHO we able to filter out how covid cases and deaths are around the globe and select the total change in cumulative cases and deaths only for 8 countries which are the countries that hold the most bitcoin and see if that feature will effect the price and see if there it is helpful in predicting the price movement.
+>> Collecting data from WHO, helped us to filter out how covid cases and deaths are around the globe and select the total change in cumulative cases and deaths only for 8 countries which are the countries that hold the most bitcoin and see if that feature will effect the price and see if there it is helpful in predicting the price movement.
 
 > Countries that hold the most bitcoin by volume are: 
 
@@ -98,3 +98,38 @@ In this Project, We want to use historical Bitcoin data, Twitter data, and COVID
 !["Price Prediction for the first period using bitcoin data, added features, tweeter sentiment analysis, covid cases and death for 8 countries that hold the most bitcoin by volume](Resources/firs_period_all_together.png)
 
 !["Classification Report](Resources/classification_report_alltogether.png)
+
+
+# The second period of this analysis is from January 1st 2021 to July 1st 2022 and we are using Random Forest to predict the bitcoin price:
+
+> Click here to see the first model and go down to the second period["1st Model for second period without features all the way down](1st_ML_model_withoutfeatures.ipynb)
+
+> Price Prediction for the second period using just bitcoin Data
+
+!["Price Prediction for the second period using just bitcoin Data](Resources/second_period_btc_nofeatures.png)
+
+!["Classification Report](Resources/second_period_classification_report.png)
+
+> Click here to see the second model and go down to the second period ["2st Model for second period with features](2nd_ML_model_withfeatures.ipynb)
+
+> Price Prediction for the second period using bitcoin Data with added features with *(from ta import add_all_ta_features)* library
+
+!["Price Prediction for the second period using bitcoin Data with added features from ta library](Resources/second_period_with%20features.png)
+
+!["Classification Report with features](Resources/second_period_cr_with_features.png)
+
+> Click here to see the 3rd model for the second period go all the way down ["3rd Model with bitcoin data and tweeter sentiment analysis for the second period scroll down](3rd_ML_model_using_btc_tweeter.ipynb)
+
+> Price Prediction for the second period using just bitcoin Data and tweeter sentiment analysis
+
+!["Price Prediction for the second period using just bitcoin Data and tweeter sentiment analysis scroll down](Resources/second_period_btc-tweepy.png)
+
+!["Classification Report](Resources/second_period_cr_btc-tweepy.png)
+
+> Click here to see the model with all features together for the second period ["2nd period, Model with bitcoin data, added features, tweeter sentiment analysis, covid cases and death for 8 countries that hold the most bitcoin by volume](2nd_covid_period.ipynb)
+
+> Price Prediction for the second period using bitcoin data, added features, tweeter sentiment analysis, covid cases and death for 8 countries that hold the most bitcoin by volume
+
+!["Price Prediction for the second period using bitcoin data, added features, tweeter sentiment analysis, covid cases and death for 8 countries that hold the most bitcoin by volume](Resources/second_period_will_allfeatures.png)
+
+!["Classification Report](Resources/second_period_cr_all_features.png)
