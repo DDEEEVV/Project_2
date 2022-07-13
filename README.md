@@ -64,3 +64,21 @@ In this Project, We want to use historical Bitcoin data, Twitter data, and COVID
 > Cumulative Covid-19 deaths:
 
 !["Covid-19 death for 8 countries that hold the most bitcoin](Resources/covid_deaths.png)
+
+# The first period of this analysis is from July 1st 2020 to July 31st 2021 and we are using Random Forest to predict the bitcoin price:
+
+> Click here to see the first model ["1st Model without features](1st_ML_model_withoutfeatures.ipynb)
+
+> Price Prediction for the first period using just bitcoin Data
+
+!["Price Prediction for the first period using just bitcoin Data](Resources/first_period_ml_no_features_prediction.png)
+
+!["Classification Report](Resources/1st_classification_report.png)
+
+> Click here to see the second model ["2st Model without features](2nd_ML_model_withfeatures.ipynb)
+
+> Price Prediction for the first period using bitcoin Data with added features with *(from ta import add_all_ta_features)* library
+
+!["Price Prediction for the first period using bitcoin Data with added features from ta library](Resources/first_period_ml_with_features.png)
+
+!["Classification Report with features](Resources/1sr_classification_report_with_features.png)
