@@ -133,3 +133,12 @@ In this Project, We want to use historical Bitcoin data, Twitter data, and COVID
 !["Price Prediction for the second period using bitcoin data, added features, tweeter sentiment analysis, covid cases and death for 8 countries that hold the most bitcoin by volume](Resources/second_period_will_allfeatures.png)
 
 !["Classification Report](Resources/second_period_cr_all_features.png)
+
+
+> To wrap up this analysis we have added an analysis with examples on moving averages and how it helps predicts the closing prices of bitcoin, and showing some entry/exit point signals!
+
+!["SMA_work by MIke"](Resources/SMA.png)
+
+!["SMA_work by MIke"](Resources/cumulative_moving_average.png)
+
+
